@@ -1,0 +1,1 @@
+export const PLUGIN_TELEGRAM_BOT_ID = 'telegram-bot-strapi';
