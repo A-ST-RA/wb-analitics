@@ -374,7 +374,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     draftAndPublish: false;
   };
   attributes: {
-    wbApiKey: Attribute.String;
+    wbApiKey: Attribute.Text;
     phoneNumber: Attribute.String & Attribute.Unique;
     email: Attribute.Email;
     description: Attribute.RichText;

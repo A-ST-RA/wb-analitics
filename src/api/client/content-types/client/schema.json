@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "wbApiKey": {
-      "type": "string"
+      "type": "text"
     },
     "phoneNumber": {
       "type": "string",

@@ -8,7 +8,7 @@ export default {
     {
       path: '/clients/wb-api-request',
       method: 'POST',
-      handler: 'client.findOne',
+      handler: 'client.wbApiRequest',
     },
   ],
 };
