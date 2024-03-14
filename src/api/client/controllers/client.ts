@@ -22,8 +22,8 @@ export default factories.createCoreController(API_CLIENT_ID, ({ strapi }) => ({
     console.log(wbApiUrl);
 
     try {
-      if (!['get', 'post', 'delete', 'patch', 'update'].includes(method)) {
-        throw new errors.ValidationError("method must be 'get', 'post', 'delete', 'patch', 'update'");
+      if (!['get', 'post', 'delete', 'patch', 'put'].includes(method)) {
+        throw new errors.ValidationError("method must be 'get', 'post', 'delete', 'patch', 'put'");
       }
 
       const requestData = await strapi.db.query(API_CLIENT_ID).findOne({
